@@ -2,10 +2,10 @@
 
 For all the **content files**, I have made templates available here:
 
-- [`image.md`](templates/image.md)
-- [`frontmatter.md`](templates/frontmatter.md)
-- [`lessons.md`](templates/lessons.md)
-- [`theory-to-practice.md`](templates/theory-to-practice.md)
+- [`image.md`](templates/image.md) (or in [raw markdown](https://raw.githubusercontent.com/kallewesterling/django-app-documentation/main/templates/image.md), for copying and pasting)
+- [`frontmatter.md`](templates/frontmatter.md) (or in [raw markdown](https://raw.githubusercontent.com/kallewesterling/django-app-documentation/main/templates/frontmatter.md), for copying and pasting)
+- [`lessons.md`](templates/lessons.md) (or in [raw markdown](https://raw.githubusercontent.com/kallewesterling/django-app-documentation/main/templates/lessons.md), for copying and pasting)
+- [`theory-to-practice.md`](templates/theory-to-practice.md) (or in [raw markdown](https://raw.githubusercontent.com/kallewesterling/django-app-documentation/main/templates/theory-to-practice.md), for copying and pasting)
 
 ## 1. Navigate to https://github.com/new in order to create a new repository
 
