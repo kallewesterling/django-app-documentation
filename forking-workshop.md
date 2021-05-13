@@ -1,4 +1,4 @@
-# Cloning the workshop to the DHRI platform
+# Forking the workshop to the DHRI platform
 
 Assuming that you’ve build the workshop in your local user (in my case, under the `kallewesterling` GitHub user), we now want to clone the workshop to the DHRI-Curriculum “user” on GitHub.
 
