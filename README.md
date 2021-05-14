@@ -8,6 +8,10 @@ Once there is a workshop built for the DHRI, you will want to fork it into [the 
 
 Instructions are available [here](forking-workshop.md).
 
+# Adding Terms to Glossary
+
+If you want to add new terms to the glossary, you will find instructions for how to do so [here](adding-new-terms.md).
+
 ----
 
 Credit: This guide is created by [Kalle Westerling](https://www.github.com/kallewesterling).
