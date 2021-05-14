@@ -1,6 +1,6 @@
-# How to deploy on Reclaim Hosting
+## How to deploy on Reclaim Hosting
 
-## Setting up a Django app on Reclaim
+### Setting up a Django app on Reclaim
 
 ... [#TODO #362](https://github.com/DHRI-Curriculum/django-app/issues/362) = only for MySQL connection ([#313](https://github.com/DHRI-Curriculum/django-app/issues/313))
 
@@ -17,27 +17,27 @@ port = 3306
 sql_mode = STRICT_TRANS_TABLES
 ```
 
-## Updating the Django app on Reclaim
+### Updating the Django app on Reclaim
 
-### Step 1. Create a SSH connection
+#### Step 1. Create a SSH connection
 
 ```console
 $ ssh dhinstit@dhinstitutes.org
 ```
 
-### Step 2. Activate Virtual Environment
+#### Step 2. Activate Virtual Environment
 
 ```console
 $ source virtualenv/curriculum.dhinstitutes.org/3.7/bin/activate
 ```
 
-### Step 3. Navigate to Working Directory
+#### Step 3. Navigate to Working Directory
 
 ```console
 $ cd curriculum.dhinstitutes.org
 ```
 
-### Step 4. Pull from GitHub and Ensure Branch Tracking
+#### Step 4. Pull from GitHub and Ensure Branch Tracking
 
 ```console
 $ git pull
@@ -49,7 +49,7 @@ If new/updated branches. For example (here `v1-dev`):
 $ git checkout --track origin/v1-dev
 ```
 
-### Step 5. Collect Static Files
+#### Step 5. Collect Static Files
 
 ```console
 $ python manage.py collectstatic
