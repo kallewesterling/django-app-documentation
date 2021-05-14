@@ -1,6 +1,6 @@
-# Installing `django-app` on a Local Server
+## Installing `django-app` on a Local Server
 
-## Step 1. Clone the repository
+### Step 1. Clone the repository
 
 First, clone this directory to your local computer by navigating to the parent directory where you want to place the `django-app` folder, and then running the following command:
 
@@ -21,7 +21,7 @@ $ cd django-app
 
 ![Animated GIF showing the `cd django-app` command.](images/02-cd-django-app.gif)
 
-## Step 2. Create virtual enviroment
+### Step 2. Create virtual enviroment
 
 Next, create a virtual environment for Django to run in:
 
@@ -37,7 +37,7 @@ $ source env/bin/activate
 
 ![Animated GIF showing visually how to start a Python virtual environment, reflecting the text-instructions above.](images/03-virtual-environment.gif)
 
-## Step 3: Install requirements
+### Step 3: Install requirements
 
 The script contains a `requirements.txt` file in the root of the repository, which makes it easy for you to run a command to run all the required dependencies:
 
@@ -51,7 +51,7 @@ That should show you the progress of the installation of all the python dependen
 
 ![Animated GIF showing the result of the `pip install` command from the example above.](images/04-pip-install.gif)
 
-# Step 4: Add your secrets
+### Step 4: Add your secrets
 
 Set up all your secrets as environment variables:
 
@@ -65,7 +65,7 @@ $ EMAIL_HOST_PASSWORD="<insert your email password here>"
 $ GITHUB_TOKEN="<insert your GitHub token here>"
 ```
 
-## Optional step: Backup solution
+### Optional step: Backup solution
 
 If you want to create a backup solution for the secret keys, put the values (with no surrounding quotation marks) of them into a text file with the name for the variable into the `./app/.secrets/` directory. Thus, the directory should look as follows:
 
