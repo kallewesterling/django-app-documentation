@@ -1,4 +1,4 @@
-# Run Server
+## Run Server
 
 You are now all done. You can run the server by running this command:
 
@@ -12,7 +12,7 @@ This command automatically create a development server for you, and you should b
 
 Note that your local "server" here will _not_ be accessible on the Internet, or on your local network. For the latter, follow the instructions below. If you want to host the site on a public-facing Internet server, you need to deploy the application to a service that provides support for Django applications, such as Reclaim Hosting.
 
-## Optional: Enable Access on Local Network (Advanced)
+### Optional: Enable Access on Local Network (Advanced)
 
 If you want to make your development server accessible through your local network, instead of running the `runserver` command from the section above, you can run the custom-made following command:
 
@@ -24,7 +24,7 @@ The result will look similar to that of `runserver` above, but your address now 
 
 _Note that `localserver` is a custom-made script for the `backend` app here, and **not** a native Django command._
 
-### Optional: Adjust Settings
+#### Optional: Adjust Settings
 
 The `localserver` command might give you a warning that notifies you that `'*'` has been added to `ALLOWED_HOSTS`. You can let this warning be or choose to rectify the "problem." You will do so by following these two steps:
 
