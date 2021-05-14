@@ -39,4 +39,4 @@ Are you trying to install the Django app and run it on a local machine? Here are
 
 ### Add a new workshop
 
-Are you trying to create a new workshop for an already existing installation of django-app? You will find instructions in [Setting up a new workshop](setup-workshop.md).
+Are you trying to create a new workshop for an already existing installation of `django-app`? You will find instructions in the [front-end documentation](../README.md).
