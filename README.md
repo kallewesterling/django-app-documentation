@@ -1,6 +1,13 @@
 # Backend
 
+## Setting up and running the Django app
+
 If you are looking for the documentation for the django application, it is available in the [django-app-docs](django-app-docs/README.md) directory.
+
+## Working with the shared hosting on Reclaim Hosting
+
+- [Tunneling and pulling most recent commits from GitHub](reclaim-shared-hosting/pull.md)
+- [Restarting Python applications](reclaim-shared-hosting/restart.md)
 
 # Frontend
 

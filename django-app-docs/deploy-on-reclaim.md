@@ -55,8 +55,4 @@ $ git checkout --track origin/v1-dev
 $ python manage.py collectstatic
 ```
 
-### Step 6. Load data
-
-```console
-$ python manage.py setup --wipe --all
-```
+Then, follow the [Populate](populate.md) instructions.
