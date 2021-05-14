@@ -1,4 +1,4 @@
-# Populate Database
+## Populate Database
 
 In order to populate (and update) the content on the DHRI curriculum website using the live data from GitHub, there is a simple two-part process. This app has been built with support to:
 
@@ -29,7 +29,7 @@ Running migrations:
   ...
 ```
 
-## Step 1. Mirror the live data: `build`
+### Step 1. Mirror the live data: `build`
 
 Next, we want to make a mirrored copy of all of the data that lives in the GitHub repositories related to the DHRI curriculum. We can do so with the `build` shortcut command:
 
@@ -47,9 +47,9 @@ There is a (large) possibility of you running into error message, warnings, etc.
 
 Once the `build` command has finished, you can move on to Step 2 below, or read the following section with more detailed information about the `build` command.
 
-### More details about `build`
+#### More details about `build`
 
-#### Optional flags
+##### Optional flags
 
 The `build` command can also be called using flags that modify its function:
 
@@ -58,7 +58,7 @@ The `build` command can also be called using flags that modify its function:
 | `--silent`        | Makes as little output as possible, although still saves all the information in log files (see [debugging docs](debug.md)).          |
 | `--verbose`       | Provides _all_ output possible, which can be overwhelming. Good for debug purposes, not for the faint of heart. |
 
-#### Behind the scenes
+##### Behind the scenes
 
 The `build` command is in fact a "shortcut" that actually runs a number of commands, which can also be run individually, in the correct order:
 
@@ -80,7 +80,7 @@ $ python manage.py ...
 
 To read more detail about each of these commands and their respective required flags, etc., see [here](detail-build.md).
 
-## Step 2. Ingest the data from your local files: `ingest`
+### Step 2. Ingest the data from your local files: `ingest`
 
 In the following step, we want to ingest the mirrored copy of all of the data that lives in the GitHub repositories, downloaded and structured in Step 1. We can do so with the `ingest` shortcut command:
 
@@ -92,9 +92,9 @@ $ python manage.py ingest
 
 Granted that you do not run into any problems (warnings, error messages, etc.), the database should now be fully populated with the information necessary to get it all [up and running](run.md).
 
-### More details about `ingest`
+#### More details about `ingest`
 
-#### Optional flags
+##### Optional flags
 
 The `ingest` command can also be called using flags that modify its function:
 
@@ -106,7 +106,7 @@ The `ingest` command can also be called using flags that modify its function:
 | `--resetusers`    | Removes all the users in the database and starts a fresh installation from the [users.yml](add-new-user.md) file. |
 | `--force`         | Automatically selects "yes" for questions about whether database objects should be updated. "Forces" its way.   |
 
-#### Behind the scenes
+##### Behind the scenes
 
 Just like the `build` command, `ingest` is a "shortcut" that runs a number of commands, which can, just like the `build` commands parts, be run individually. The `ingest` command runs them all in the correct order:
 
