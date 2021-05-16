@@ -1,4 +1,4 @@
-# Installing `django-app` on a Local Server
+# 1. Installing a local instance
 
 ## Step 1. Clone the repository
 
@@ -82,9 +82,3 @@ django-app
       |--- GITHUB_TOKEN
       |
 ```
-
----
-
-### Continue install track
-
-[<< Back to documentation](README.md) | [Next step >>](populate.md)

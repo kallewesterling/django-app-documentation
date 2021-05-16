@@ -1,4 +1,4 @@
-# App-specific settings
+# 1. Pre-installation preparations
 
 Required files to add for the app to run:
 

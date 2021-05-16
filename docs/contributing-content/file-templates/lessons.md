@@ -1,3 +1,6 @@
+# Template for `lessons.md`
+
+```md
 # Lesson number one: They should not be numbered.
 
 Dolor minim nostrud ipsum dolor minim nisi minim duis sint sint consectetur proident quis velit. Elit duis eu laborum veniam quis magna deserunt amet est Lorem. Proident aliqua in velit consequat veniam irure reprehenderit incididunt do laborum tempor qui. Commodo minim est dolor do magna ullamco magna dolore ipsum culpa laborum voluptate esse elit. Consequat ullamco sunt ut laborum anim in consequat consectetur deserunt qui dolore proident. Ad occaecat aliquip incididunt dolore laboris et adipisicing occaecat exercitation laborum fugiat enim ea excepteur. Excepteur ea dolore consectetur ea eiusmod enim.
@@ -45,3 +48,4 @@ If your challenge has a solution, it should follow the same pattern as the chall
 # Lesson number four: They should not be numbered.
 
 ...
+```

@@ -1,0 +1,83 @@
+site_name: DHRI Curriculum Documentation
+site_description: TODO Insert description here
+
+repo_url: https://github.com/DHRI-Curriculum
+
+theme:
+    name: material
+    logo: _meta/assets/logo.png
+    favicon: _meta/assets/favicon-96x96.png
+    font:
+        text: Titillium Web
+        code: Roboto Mono
+    features:
+        - navigation.instant
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.sections
+        - navigation.indexes
+        - navigation.top
+        - search.suggest
+        - search.highlight
+        - search.share
+
+site_dir: site
+extra_css:
+    - _meta/extra.css
+markdown_extensions:
+    - toc:
+        permalink: true
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.highlight:
+        linenums: true
+    - attr_list
+
+plugins:
+    - search
+
+nav:
+- 'Welcome': 'index.md'
+- 'Contributing content':
+    - 'Term':
+        - 'Build a new term': './contributing-content/terms/new.md'
+        - 'Commit new term to GitHub': './contributing-content/terms/commit.md'
+        - 'File templates':
+            - 'term.md': './contributing-content/file-templates/term.md'
+    - 'Workshop':
+        - 'Build a new workshop': './contributing-content/creating-new-workshop.md'
+        - 'File templates':
+            - 'image.md': './contributing-content/file-templates/image.md'
+            - 'frontmatter.md': './contributing-content/file-templates/frontmatter.md'
+            - 'lessons.md': './contributing-content/file-templates/lessons.md'
+            - 'theory-to-practice.md': './contributing-content/file-templates/theory-to-practice.md'
+    - 'Style guide':
+        - 'Branches':
+            - 'Branch names': './contributing-content/style-guide/branches/branch-names.md'
+- 'Backend':
+    - 'Overview of the Django workflow': './backend/README.md'
+    - 'Steps to install a Local Instance':
+        - '1. Installing required components': './backend/1-installing-a-local-instance.md'
+        - '2. Populating the database': './backend/2-populating-the-database.md'
+        - '3. Running the local instance': './backend/3-running-the-instance-locally.md'
+- 'Deployment':
+    - 'Reclaim Shared Hosting':
+        - '1. Pulling latest commit': './deployment/reclaim-shared-hosting/pull.md'
+        - '2. Restarting hosting': './deployment/reclaim-shared-hosting/restart.md'
+- 'Settings':
+    - 'Adding a new user': './settings/add-new-user.md'
+- 'Debugging':
+    - 'Getting started with debug': './debugging/index.md'
+    - 'Under the hood':
+        - 'File structure': './under-the-hood/file-structure.md'
+        - 'Shell commands':
+            - 'localserver': './under-the-hood/localserver.md'
+            - 'build': './under-the-hood/build.md'
+            - 'ingest': './under-the-hood/ingest.md'
+- 'Editing content':
+    - 'Getting started': './editing-content/index.md'
+    - 'Forking a workshop into our content': './editing-content/forking-workshop.md'
+    - 'Merging new terms into the glossary': './editing-content/merging-new-terms.md'
+
+edit_uri: ""

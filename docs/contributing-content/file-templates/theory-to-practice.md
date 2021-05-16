@@ -1,3 +1,6 @@
+# Template for `theory-to-practice.md`
+
+```md
 # Theory to Practice
 
 Congratulatory paragraph here to the learner who has now completed the workshop. It could summarize a bit what the journey has been like, why the skill matters in the world, and where the technology is at right now.
@@ -21,3 +24,4 @@ Congratulatory paragraph here to the learner who has now completed the workshop.
 - from the skill, what its limits are, pitfalls with
 - using this versus other skills, how they could use
 - it in teaching, etc.
+```

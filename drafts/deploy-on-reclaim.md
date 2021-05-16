@@ -55,4 +55,4 @@ $ git checkout --track origin/v1-dev
 $ python manage.py collectstatic
 ```
 
-Then, follow the [Populate](populate.md) instructions.
+Then, follow the [Populate](2-populating-the-database.md) instructions.

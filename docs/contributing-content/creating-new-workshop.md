@@ -1,11 +1,11 @@
 # Creating a new workshop
 
-For all the **content files**, I have made templates available here:
+For all the **content files**, easily accessible (and for copying and pasting) templates are available here:
 
-- [`image.md`](templates/image.md) (or in [raw markdown](https://raw.githubusercontent.com/kallewesterling/django-app-documentation/main/templates/image.md), for copying and pasting)
-- [`frontmatter.md`](templates/frontmatter.md) (or in [raw markdown](https://raw.githubusercontent.com/kallewesterling/django-app-documentation/main/templates/frontmatter.md), for copying and pasting)
-- [`lessons.md`](templates/lessons.md) (or in [raw markdown](https://raw.githubusercontent.com/kallewesterling/django-app-documentation/main/templates/lessons.md), for copying and pasting)
-- [`theory-to-practice.md`](templates/theory-to-practice.md) (or in [raw markdown](https://raw.githubusercontent.com/kallewesterling/django-app-documentation/main/templates/theory-to-practice.md), for copying and pasting)
+- [`image.md`](file-templates/image.md)
+- [`frontmatter.md`](file-templates/frontmatter.md)
+- [`lessons.md`](file-templates/lessons.md)
+- [`theory-to-practice.md`](file-templates/theory-to-practice.md)
 
 ## 1. Navigate to https://github.com/new in order to create a new repository
 
@@ -96,7 +96,7 @@ Inside the `_django-meta` directory, add the PNG file for the header (which will
 
 Here, we’ll start with `frontmatter.md` but you can start with any of the files (see point 9 and 10 below)
 
-_Note that there is a template for [`frontmatter.md`](templates/frontmatter.md) available to make the following easier to follow._
+_Note that there is a template for [`frontmatter.md`](file-templates/frontmatter.md) available to make the following easier to follow._
 
 - Add header level 1 with the name of the workshop: `# Introduction to JavaScript`
 - Add header level 2: `## Abstract` and underneath it, an abstract for the workshop.
@@ -139,7 +139,7 @@ _Note that there is a template for [`frontmatter.md`](templates/frontmatter.md) 
 
 ## 9. Time to add content to `lessons.md`
 
-_Note that there is a template for [`lessons.md`](templates/lessons.md) available to make the following easier to follow._
+_Note that there is a template for [`lessons.md`](file-templates/lessons.md) available to make the following easier to follow._
 
 - Add each of the lessons, unnumbered, as a level 1 heading, with any subsequent headers as level 2 headers.
 	```md
@@ -181,7 +181,7 @@ _Note that there is a template for [`lessons.md`](templates/lessons.md) availabl
 
 ## 10. Time to add content to `theory-to-practice.md`
 
-_Note that there is a template for [`theory-to-practice.md`](templates/theory-to-practice.md) available to make the following easier to follow._
+_Note that there is a template for [`theory-to-practice.md`](file-templates/theory-to-practice.md) available to make the following easier to follow._
 
 - Start with a level 1 heading, `# Theory to Practice` with the following paragraph(s) being a congratulatory message to the learner who has now completed the workshop. It could summarize a bit what the journey has been like, why the skill matters in the world, and where the technology is at right now.
 - Add a level 2 header, `## Suggested Further Readings`, with any recommended further readings to look at, which describe the skills detailed in the workshop. All readings should be added as a bulletpoint list, with a hyperlink with a clear explanatory text as its text element. After the reference, you can also add any other explanatory text that you may want.

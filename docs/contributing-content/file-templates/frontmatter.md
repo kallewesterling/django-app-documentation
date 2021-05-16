@@ -1,3 +1,6 @@
+# Template for `frontmatter.md`
+
+```md
 # Name of Workshop
 
 ## Abstract
@@ -54,3 +57,4 @@ Ex commodo ad deserunt excepteur et duis. Do et pariatur excepteur cillum cillum
 - Past reviewer: [Name](https://github.com/username-on-github)
 - Current editor: [Name](https://github.com/username-on-github)
 - Current editor: [Name](https://github.com/username-on-github)
+```
