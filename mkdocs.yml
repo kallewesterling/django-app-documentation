@@ -2,6 +2,7 @@ site_name: DHRI Curriculum Documentation
 site_description: TODO Insert description here
 
 repo_url: https://github.com/DHRI-Curriculum
+edit_uri: ''
 
 theme:
     name: material
@@ -43,51 +44,62 @@ markdown_extensions:
     - pymdownx.highlight:
         linenums: true
     - attr_list
+    - admonition
+    - pymdownx.superfences
+    - pymdownx.details
 
 plugins:
     - search
 
 nav:
 - 'Welcome': 'index.md'
+- 'Roadmap': 'roadmap.md'
 - 'Contributing content':
+    - 'Getting started contributing': './contributing-content/index.md'
     - 'Term':
         - 'Build a new term': './contributing-content/terms/new.md'
         - 'Commit new term to GitHub': './contributing-content/terms/commit.md'
         - 'File templates':
-            - 'term.md': './contributing-content/file-templates/term.md'
+            - 'term.md': './contributing-content/terms/file-templates/term.md'
     - 'Workshop':
-        - 'Build a new workshop': './contributing-content/creating-new-workshop.md'
+        - 'Build a new workshop': './contributing-content/workshops/new.md'
         - 'File templates':
-            - 'image.md': './contributing-content/file-templates/image.md'
-            - 'frontmatter.md': './contributing-content/file-templates/frontmatter.md'
-            - 'lessons.md': './contributing-content/file-templates/lessons.md'
-            - 'theory-to-practice.md': './contributing-content/file-templates/theory-to-practice.md'
+            - 'image.md': './contributing-content/workshops/file-templates/image.md'
+            - 'frontmatter.md': './contributing-content/workshops/file-templates/frontmatter.md'
+            - 'lessons.md': './contributing-content/workshops/file-templates/lessons.md'
+            - 'theory-to-practice.md': './contributing-content/workshops/file-templates/theory-to-practice.md'
     - 'Style guide':
         - 'Branches':
             - 'Branch names': './contributing-content/style-guide/branches/branch-names.md'
 - 'Backend':
-    - 'Overview of the Django workflow': './backend/README.md'
+    - 'Getting started with the backend': './backend/index.md'
     - 'Steps to install a Local Instance':
         - '1. Installing required components': './backend/1-installing-a-local-instance.md'
         - '2. Populating the database': './backend/2-populating-the-database.md'
         - '3. Running the local instance': './backend/3-running-the-instance-locally.md'
 - 'Deployment':
+    - 'Getting started with deployment': './deployment/index.md'
     - 'Reclaim Shared Hosting':
         - '1. Pulling latest commit': './deployment/reclaim-shared-hosting/pull.md'
         - '2. Restarting hosting': './deployment/reclaim-shared-hosting/restart.md'
 - 'Settings':
+    - 'Getting started with the settings': './settings/index.md'
     - 'Adding a new user': './settings/add-new-user.md'
+    - 'DEBUG': './settings/debug-mode.md'
+    - 'Environment variables': './settings/environment-variables.md'
+    - 'MySQL settings': './settings/mysql.md'
 - 'Debugging':
     - 'Getting started with debug': './debugging/index.md'
+    - 'Super-reset': './debugging/super-reset.md'
+    - 'Drop all migration files': './debugging/dropping-migration-files.md'
     - 'Under the hood':
-        - 'File structure': './under-the-hood/file-structure.md'
+        - 'File structure': './debugging/under-the-hood/file-structure.md'
         - 'Shell commands':
-            - 'localserver': './under-the-hood/localserver.md'
-            - 'build': './under-the-hood/build.md'
-            - 'ingest': './under-the-hood/ingest.md'
+            - 'localserver': './debugging/under-the-hood/localserver.md'
+            - 'build': './debugging/under-the-hood/build.md'
+            - 'ingest': './debugging/under-the-hood/ingest.md'
 - 'Editing content':
     - 'Getting started': './editing-content/index.md'
     - 'Forking a workshop into our content': './editing-content/forking-workshop.md'
     - 'Merging new terms into the glossary': './editing-content/merging-new-terms.md'
 
-edit_uri: ""

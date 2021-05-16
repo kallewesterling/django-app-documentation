@@ -1,4 +1,6 @@
-# Editing content
+# Getting started as an editor
+
+## Overview of the workflow
 
 This is where we will have information about the duties of the "editor" in the editorial workflow—the one who needs to make sure that content gets forked into DHRI-Curriculum, and edited in the correct way.
 

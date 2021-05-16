@@ -47,9 +47,7 @@ There is a (large) possibility of you running into error message, warnings, etc.
 
 Once the `build` command has finished, you can move on to Step 2 below, or read the following section with more detailed information about the `build` command.
 
-### More details about `build`
-
-#### Optional flags
+### Optional flags
 
 The `build` command can also be called using flags that modify its function and can be combined as you see fit:
 
@@ -58,7 +56,9 @@ The `build` command can also be called using flags that modify its function and 
 | `--silent`  | Makes as little output as possible, although still saves all the information in log files (see [debugging docs](../debugging/index.md)).  |
 | `--verbose` | Provides _all_ output possible, which can be overwhelming. Good for debug purposes, not for the faint of heart. |
 
-To read more detail about each of these commands and their respective required flags, etc., see [here](../under-the-hood/build.md).
+!!! info
+
+    [Click here](../debugging/under-the-hood/build.md) to read more detail about each of these commands and their respective required flags, etc.
 
 ## Step 2. Ingest the data from your local files: `ingest`
 
@@ -72,9 +72,7 @@ $ python manage.py ingest
 
 Granted that you do not run into any problems (warnings, error messages, etc.), the database should now be fully populated with the information necessary to get it all [up and running](3-running-the-instance-locally.md).
 
-### More details about `ingest`
-
-#### Optional flags
+### Optional flags
 
 The `ingest` command can also be called using flags that modify its function and can be combined as you see fit:
 
@@ -86,4 +84,6 @@ The `ingest` command can also be called using flags that modify its function and
 | `--resetusers` | Removes all the users in the database and starts a fresh installation from the [users.yml](../settings/add-new-user.md) file. |
 | `--force` | Automatically selects "yes" for questions about whether database objects should be updated. "Forces" its way. |
 
-To read more detail about each of these commands and their respective required flags, etc., see [here](../under-the-hood/ingest.md). All of this is described in the [debugging](../debugging/index.md) part of the documentation.
+!!! info
+
+    [Click here](../debugging/under-the-hood/ingest.md) to read more detail about each of these commands and their respective required flags. All of this is described in the [debugging](../debugging/index.md) part of the documentation.

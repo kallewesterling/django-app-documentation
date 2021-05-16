@@ -40,7 +40,7 @@ You should now be on your own branch of this repository. You can verify that you
 
 Before you start to add content to your editing branch, make sure you're adding terms to the correct folder, `terms` inside the repository. The term should be in its own, separate `<term>.md` file. Keep the filename lowercase and replace spaces with '-'.
 
-_Note that there is a template for [`term.md`](../file-templates/term.md) available to make the following easier to follow._
+_Note that there is a template for [`term.md`](file-templates/term.md) available to make the following easier to follow._
 
 1. Add the term as the first header in the file (`# <term>`)
 
