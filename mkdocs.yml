@@ -30,7 +30,8 @@ theme:
             icon: material/weather-sunny
             name: Switch to light mode
 
-site_dir: site
+site_dir: docs
+docs_dir: markdown
 extra_css:
     - _meta/extra.css
 markdown_extensions:

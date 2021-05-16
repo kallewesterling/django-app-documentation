@@ -1,3 +1,0 @@
-# Debugging the application
-
-XXXX
