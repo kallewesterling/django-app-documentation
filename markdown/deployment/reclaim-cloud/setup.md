@@ -2,7 +2,7 @@
 
 Note that these are not finished installation instructions.
 
-<!-- TODO: add finished instructions -->
+<!-- TODO #3: add finished instructions -->
 
 ## Step 1. Create environment and deploy the GitHub repository into the cloudlet.
 
