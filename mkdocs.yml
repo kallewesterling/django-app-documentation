@@ -1,5 +1,5 @@
 site_name: DHRI Curriculum Documentation
-site_description: TODO Insert description here
+site_description: '' # TODO: Insert description here
 
 repo_url: https://github.com/DHRI-Curriculum
 edit_uri: ''
@@ -82,6 +82,8 @@ nav:
     - 'Reclaim Shared Hosting':
         - '1. Pulling latest commit': './deployment/reclaim-shared-hosting/pull.md'
         - '2. Restarting hosting': './deployment/reclaim-shared-hosting/restart.md'
+    - 'Reclaim Cloud Hosting':
+        - 'Draft instructions': './deployment/reclaim-cloud/setup.md'
 - 'Settings':
     - 'Getting started with the settings': './settings/index.md'
     - 'Adding a new user': './settings/add-new-user.md'
