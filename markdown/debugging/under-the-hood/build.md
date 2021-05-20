@@ -1,13 +1,19 @@
 # The `build` command explained
 
-Just like the `build` command, `ingest` is a "shortcut" that runs a number of commands, which can, just like the `build` commands parts, be run individually. The `ingest` command runs them all in the correct order:
+The `build` command is in fact a "shortcut" that actually runs a number of commands, which can also be run individually, in the correct order:
 
-1. ingestgroups
-2. ingestusers
-3. ingestglossary
-4. ingestinstalls
-5. ingestinsights
-6. ingestworkshop
-7. ingestsnippets
-8. ingestblurbs
-9. ingestprerequisite
+1. buildgroups
+2. buildusers
+3. buildglossary
+4. buildinstalls
+5. buildinsights
+6. buildworkshop
+7. buildblurbs
+
+All of these can be placed in place of `build` on the command line above, like so:
+
+```sh
+$ python manage.py buildgroups
+$ python manage.py users
+$ python manage.py ...
+```
