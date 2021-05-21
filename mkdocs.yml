@@ -68,6 +68,9 @@ nav:
             - 'frontmatter.md': './contributing-content/workshops/file-templates/frontmatter.md'
             - 'lessons.md': './contributing-content/workshops/file-templates/lessons.md'
             - 'theory-to-practice.md': './contributing-content/workshops/file-templates/theory-to-practice.md'
+    - 'Installation Guides':
+        - 'Build a new installation guide': './contributing-content/installation-guides/new.md'
+        - 'Commit new installation guide to GitHub': './contributing-content/installation-guides/commit.md'
     - 'Style guide':
         - 'Branches':
             - 'Branch names': './contributing-content/style-guide/branches/branch-names.md'
