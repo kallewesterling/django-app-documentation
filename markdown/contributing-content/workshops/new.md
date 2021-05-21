@@ -7,6 +7,10 @@ For all the **content files**, easily accessible (and for copying and pasting) t
 - [`lessons.md`](file-templates/lessons.md)
 - [`theory-to-practice.md`](file-templates/theory-to-practice.md)
 
+!!! warning
+
+	**NOTE**: The `README.md` file and `sections` directory are generated using a Python script and should therefore not be edited. To be clear: any content in the `README.md` file or any files in the `sections` directory will be overwritten (without any approval/prompt).
+
 ## 1. Navigate to https://github.com/new in order to create a new repository
 
 - **Repository name** (suggestion): name it like we’ve named the other workshops, using a shorthand (i.e. not `introduction-to-javascript` but rather just `javascript`)
