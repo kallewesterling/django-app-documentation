@@ -76,10 +76,13 @@ nav:
             - 'Branch names': './contributing-content/style-guide/branches/branch-names.md'
 - 'Backend':
     - 'Getting started with the backend': './backend/index.md'
-    - 'Steps to install a Local Instance':
+    - 'Steps to install a local instance':
         - '1. Installing required components': './backend/1-installing-a-local-instance.md'
         - '2. Populating the database': './backend/2-populating-the-database.md'
         - '3. Running the local instance': './backend/3-running-the-instance-locally.md'
+    - Keeping up-to-date:
+        - 'Synchronizing database with GitHub repositories': './backend/updating-the-database.md'
+        - 'Building GitHub backup content': './backend/building-backup-content.md'
 - 'Deployment':
     - 'Getting started with deployment': './deployment/index.md'
     - 'Reclaim Shared Hosting':
