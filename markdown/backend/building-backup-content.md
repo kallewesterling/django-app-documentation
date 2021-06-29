@@ -17,7 +17,7 @@ $ cd /path/to/python/
 
 ## 2. Initiate and check out `localdjango`
 
-We can put both commands on one line for convenience:
+If the `localdjango` directory is empty, we need to initiate and check out the so-called "submodule." We can do so by putting both commands on one line for convenience:
 
 ```sh
 $ git submodule init && git submodule update
@@ -28,6 +28,9 @@ You should receive a message back from the command prompt that says:
 ```sh
 Submodule path 'localdjango': checked out '0bfdef48ea968121f08122666611b2c4f43b6b81'
 ```
+
+!!! info
+    Note that step 2 might not be necessary if the submodule is already initiated and up to date. It won't hurt to run the commands above, but you will not receive a message back.
 
 ## 3. Run `localdjango`
 
