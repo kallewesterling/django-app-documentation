@@ -1,8 +1,8 @@
 site_name: DHRI Curriculum Documentation
-site_description: '' # TODO: #4 Insert description here
+site_description: "" # TODO: #4 Insert description here
 
 repo_url: https://github.com/DHRI-Curriculum
-edit_uri: ''
+edit_uri: ""
 
 theme:
     name: material
@@ -24,12 +24,12 @@ theme:
     palette:
         - scheme: default
           toggle:
-            icon: material/weather-night
-            name: Switch to dark mode
+              icon: material/weather-night
+              name: Switch to dark mode
         - scheme: slate
           toggle:
-            icon: material/weather-sunny
-            name: Switch to light mode
+              icon: material/weather-sunny
+              name: Switch to light mode
 
 site_dir: docs
 docs_dir: markdown
@@ -37,12 +37,12 @@ extra_css:
     - _meta/extra.css
 markdown_extensions:
     - toc:
-        permalink: true
+          permalink: true
     - pymdownx.emoji:
-        emoji_index: !!python/name:materialx.emoji.twemoji
-        emoji_generator: !!python/name:materialx.emoji.to_svg
+          emoji_index: !!python/name:materialx.emoji.twemoji
+          emoji_generator: !!python/name:materialx.emoji.to_svg
     - pymdownx.highlight:
-        linenums: true
+          linenums: true
     - attr_list
     - admonition
     - pymdownx.superfences
@@ -52,62 +52,62 @@ plugins:
     - search
 
 nav:
-- 'Welcome': 'index.md'
-- 'Roadmap': 'roadmap.md'
-- 'Contributing content':
-    - 'Getting started contributing': './contributing-content/index.md'
-    - 'Term':
-        - 'Build a new term': './contributing-content/terms/new.md'
-        - 'Commit new term to GitHub': './contributing-content/terms/commit.md'
-        - 'File templates':
-            - 'term.md': './contributing-content/terms/file-templates/term.md'
-    - 'Workshop':
-        - 'Build a new workshop': './contributing-content/workshops/new.md'
-        - 'File templates':
-            - 'image.md': './contributing-content/workshops/file-templates/image.md'
-            - 'frontmatter.md': './contributing-content/workshops/file-templates/frontmatter.md'
-            - 'lessons.md': './contributing-content/workshops/file-templates/lessons.md'
-            - 'theory-to-practice.md': './contributing-content/workshops/file-templates/theory-to-practice.md'
-    - 'Installation Guides':
-        - 'Build a new installation guide': './contributing-content/installation-guides/new.md'
-        - 'Commit new installation guide to GitHub': './contributing-content/installation-guides/commit.md'
-    - 'Style guide':
-        - 'Branches':
-            - 'Branch names': './contributing-content/style-guide/branches/branch-names.md'
-- 'Backend':
-    - 'Getting started with the backend': './backend/index.md'
-    - 'Steps to install a local instance':
-        - '1. Installing required components': './backend/1-installing-a-local-instance.md'
-        - '2. Populating the database': './backend/2-populating-the-database.md'
-        - '3. Running the local instance': './backend/3-running-the-instance-locally.md'
-    - Keeping up-to-date:
-        - 'Synchronizing database with GitHub repositories': './backend/updating-the-database.md'
-        - 'Building GitHub backup content': './backend/building-backup-content.md'
-- 'Deployment':
-    - 'Getting started with deployment': './deployment/index.md'
-    - 'Reclaim Shared Hosting':
-        - '1. Pulling latest commit': './deployment/reclaim-shared-hosting/pull.md'
-        - '2. Restarting hosting': './deployment/reclaim-shared-hosting/restart.md'
-    - 'Reclaim Cloud Hosting':
-        - 'Draft instructions': './deployment/reclaim-cloud/setup.md'
-- 'Settings':
-    - 'Getting started with the settings': './settings/index.md'
-    - 'Adding a new user': './settings/add-new-user.md'
-    - 'DEBUG': './settings/debug-mode.md'
-    - 'Environment variables': './settings/environment-variables.md'
-    - 'MySQL settings': './settings/mysql.md'
-- 'Debugging':
-    - 'Getting started with debug': './debugging/index.md'
-    - 'Super-reset': './debugging/super-reset.md'
-    - 'Drop all migration files': './debugging/dropping-migration-files.md'
-    - 'Under the hood':
-        - 'File structure': './debugging/under-the-hood/file-structure.md'
-        - 'Shell commands':
-            - 'localserver': './debugging/under-the-hood/localserver.md'
-            - 'build': './debugging/under-the-hood/build.md'
-            - 'ingest': './debugging/under-the-hood/ingest.md'
-- 'Editing content':
-    - 'Getting started': './editing-content/index.md'
-    - 'Forking a workshop into our content': './editing-content/forking-workshop.md'
-    - 'Merging new terms into the glossary': './editing-content/merging-new-terms.md'
-
+    - "Welcome": "index.md"
+    - "Roadmap": "roadmap.md"
+    - "Contributing content":
+          - "Getting started contributing": "./contributing-content/index.md"
+          - "Term":
+                - "Build a new term": "./contributing-content/terms/new.md"
+                - "Commit new term to GitHub": "./contributing-content/terms/commit.md"
+                - "File templates":
+                      - "term.md": "./contributing-content/terms/file-templates/term.md"
+          - "Workshop":
+                - "Build a new workshop": "./contributing-content/workshops/new.md"
+                - "File templates":
+                      - "image.md": "./contributing-content/workshops/file-templates/image.md"
+                      - "frontmatter.md": "./contributing-content/workshops/file-templates/frontmatter.md"
+                      - "lessons.md": "./contributing-content/workshops/file-templates/lessons.md"
+                      - "theory-to-practice.md": "./contributing-content/workshops/file-templates/theory-to-practice.md"
+          - "Installation Guides":
+                - "Build a new installation guide": "./contributing-content/installation-guides/new.md"
+                - "Commit new installation guide to GitHub": "./contributing-content/installation-guides/commit.md"
+          - "Style guide":
+                - "Branches":
+                      - "Branch names": "./contributing-content/style-guide/branches/branch-names.md"
+    - "Backend":
+          - "Getting started with the backend": "./backend/index.md"
+          - "Steps to install a local instance":
+                - "1. Installing required components": "./backend/1-installing-a-local-instance.md"
+                - "2. Populating the database": "./backend/2-populating-the-database.md"
+                - "3. Running the local instance": "./backend/3-running-the-instance-locally.md"
+          - Keeping up-to-date:
+                - "Synchronizing database with GitHub repositories": "./backend/updating-the-database.md"
+                - "Building GitHub backup content": "./backend/building-backup-content.md"
+    - "Deployment":
+          - "Getting started with deployment": "./deployment/index.md"
+          - "Reclaim Shared Hosting":
+                - "1. Pulling latest commit": "./deployment/reclaim-shared-hosting/pull.md"
+                - "2. Restarting hosting": "./deployment/reclaim-shared-hosting/restart.md"
+          - "Reclaim Cloud Hosting":
+                - "Draft instructions": "./deployment/reclaim-cloud/setup.md"
+    - "Settings":
+          - "Getting started with the settings": "./settings/index.md"
+          - "Adding a new user": "./settings/add-new-user.md"
+          - "DEBUG": "./settings/debug-mode.md"
+          - "Environment variables": "./settings/environment-variables.md"
+          - "MySQL settings": "./settings/mysql.md"
+    - "Debugging":
+          - "Getting started with debug": "./debugging/index.md"
+          - "Super-reset": "./debugging/super-reset.md"
+          - "Drop all migration files": "./debugging/dropping-migration-files.md"
+          - "Copy remote files for debugging": "./debugging/copy-remote-files.md"
+          - "Under the hood":
+                - "File structure": "./debugging/under-the-hood/file-structure.md"
+                - "Shell commands":
+                      - "localserver": "./debugging/under-the-hood/localserver.md"
+                      - "build": "./debugging/under-the-hood/build.md"
+                      - "ingest": "./debugging/under-the-hood/ingest.md"
+    - "Editing content":
+          - "Getting started": "./editing-content/index.md"
+          - "Forking a workshop into our content": "./editing-content/forking-workshop.md"
+          - "Merging new terms into the glossary": "./editing-content/merging-new-terms.md"
